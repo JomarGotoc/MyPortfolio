@@ -114,8 +114,6 @@
 
   </div>
 
-
-
   <section class="service_section layout_padding">
     <div class="container">
       <div class="heading_container">
@@ -177,9 +175,7 @@
       </div>
     </div>
   </section>
-  <!-- end service section -->
 
-  <!-- about section -->
   <section class="about_section layout_padding">
     <div class="container">
       <div class="row">
@@ -413,17 +409,26 @@
     })
     </script>
 
-<script>
-  var typingEffect = new Typed(".quotes" , {
-    strings : ["Do What You Love, Love What You Do"],
-    loop : true,
-    typeSpeed : 50,
-    backSpeed : 20,
-    backDelay : 100,
-})
-</script>
+      <script>
+        var typingEffect = new Typed(".quotes" , {
+          strings : ["Do What You Love, Love What You Do"],
+          loop : true,
+          typeSpeed : 50,
+          backSpeed : 20,
+          backDelay : 100,
+      })
+      </script>
 
-    
+
+      <script>
+        const sr = ScrollReveal ({
+        distance: '25px',
+        duration: 2500,
+        reset: true
+        })
+
+        sr.reveal('service_section',{delay:190, origin:'bottom'})
+      </script>
 
 
 </body>

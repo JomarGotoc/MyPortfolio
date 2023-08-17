@@ -4,5 +4,5 @@ const sr = ScrollReveal ({
   reset: true
 })
 
-sr.reveal('.home',{delay:190, origin:'bottom'})
+sr.reveal('service_section',{delay:190, origin:'bottom'})
 sr.reveal('.service_section',{delay:200, origin:'bottom'})
